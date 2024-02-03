@@ -1,3 +1,7 @@
+body {
+    background-color: #EFEEFE;
+}
+
 
 .title {
     text-align: center;
@@ -5,10 +9,19 @@
 }
 
 .main-link {
-    float: left;
+    display: inline-block;
     margin: 30px;
     font-size: 50px;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+    background-color: orange;
 }
+
+.main-link:hover {
+    background-color: rgb(255,140,0);
+}
+
 
 .image-box {
     display: block;
@@ -42,15 +55,15 @@ ol li {
 
 .ingredients-box {
     width: 30%;
-    height: 300px;
-    float:left;
-    margin-right: 100px;
-    margin-bottom: 50px;
+    display: inline-block;
+    margin-right: 50px;
+
 }
 
 .instructions-box {
-    width: 70%;
-    width: 600px;
-    height: 600px;
-    float: left;
+    width: 60%;
+    display: inline-block;
+    margin: auto;
 }
+
+
